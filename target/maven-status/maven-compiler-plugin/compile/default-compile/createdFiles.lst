@@ -1,0 +1,6 @@
+com/bikeparking/backend/model/ParkingSpot.class
+com/bikeparking/backend/BikeParkingApplication.class
+com/bikeparking/backend/model/ParkingSpotId.class
+com/bikeparking/backend/controller/ParkingController$ParkRequest.class
+com/bikeparking/backend/repository/ParkingSpotRepository.class
+com/bikeparking/backend/controller/ParkingController.class
