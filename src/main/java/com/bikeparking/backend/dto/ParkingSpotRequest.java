@@ -1,4 +1,3 @@
-// /src/main/java/com/bikeparking/backend/dto/ParkingSpotRequest.java
 package com.bikeparking.backend.dto;
 
 import java.util.UUID;

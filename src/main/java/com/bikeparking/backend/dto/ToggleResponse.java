@@ -11,7 +11,6 @@ public class ToggleResponse {
     private Boolean isOccupied;
     private ParkingSpot spotDetails;
 
-    // Enum to represent the action taken
     public enum Action {
         PARKED, // Spot was vacant, now occupied
         VACATED // Spot was occupied, now vacant
