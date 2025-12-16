@@ -1,6 +1,9 @@
 /home/moe/FICA/src/main/java/com/bikeparking/backend/filter/RequestResponseLoggingFilter.java
 /home/moe/FICA/src/main/java/com/bikeparking/backend/repository/ParkingSpotRepository.java
+/home/moe/FICA/src/main/java/com/bikeparking/backend/dto/ParkingSpotRequest.java
 /home/moe/FICA/src/main/java/com/bikeparking/backend/model/ParkingSpot.java
+/home/moe/FICA/src/main/java/com/bikeparking/backend/dto/ToggleResponse.java
 /home/moe/FICA/src/main/java/com/bikeparking/backend/controller/ParkingController.java
+/home/moe/FICA/src/main/java/com/bikeparking/backend/service/ParkingSpotService.java
 /home/moe/FICA/src/main/java/com/bikeparking/backend/BikeParkingApplication.java
 /home/moe/FICA/src/main/java/com/bikeparking/backend/model/ParkingSpotId.java
