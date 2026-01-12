@@ -36,6 +36,9 @@ public class ParkingSpot {
     @Column(name = "IsOccupied")
     private Boolean isOccupied; // Maps to SQL Server BIT (0 or 1)
 
+    @Column(name = "IsParked")
+    private Boolean isParked; // Maps to SQL Server BIT (0 or 1)
+
     @Column(name = "LoginTime")
     private LocalDateTime loginTime; // Maps to SQL Server DATETIME2
 

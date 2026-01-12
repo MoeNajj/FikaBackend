@@ -1,5 +1,6 @@
 package com.bikeparking.backend.controller;
 
+import com.bikeparking.backend.dto.NfcParkingRequest;
 import com.bikeparking.backend.dto.ParkingSpotRequest;
 import com.bikeparking.backend.dto.ToggleResponse;
 import com.bikeparking.backend.model.ParkingSpot;
@@ -23,6 +24,14 @@ public class ParkingController {
     public ResponseEntity<ToggleResponse> toggleSpotStatus(@RequestBody ParkingSpotRequest request) {
         
         ToggleResponse response = parkingSpotService.toggleParkingSpot(request);
+        
+        return ResponseEntity.ok(response);
+    }
+    
+    @PostMapping("/toggle/nfc")
+    public ResponseEntity<ToggleResponse> toggleSpotStatusNfc(@RequestBody NfcParkingRequest request) {
+        
+        ToggleResponse response = parkingSpotService.toggleParkingSpotNfc(request);
         
         return ResponseEntity.ok(response);
     }
